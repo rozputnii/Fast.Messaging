@@ -1,0 +1,39 @@
+<Project>
+    <Import Project="..\Directory.Build.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <!--<TargetFrameworks>net9.0;net10.0</TargetFrameworks>-->
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+        <IsTrimmable>true</IsTrimmable>
+        <IsAotCompatible>true</IsAotCompatible>
+
+        <ImplicitUsings>enable</ImplicitUsings>
+        <InvariantGlobalization>true</InvariantGlobalization>
+
+        <!-- NuGet Packaging -->
+        <IsPackable>true</IsPackable>
+        <Version>$([System.IO.File]::ReadAllText("$(MSBuildThisFileDirectory)..\version.txt"))</Version>
+        <PackageVersion>$(Version)</PackageVersion>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <!--<Company>CNCF</Company>-->
+        <Authors>rozputnii</Authors>
+        <!--<Copyright>Copyright © The NATS Authors 2016-$([System.DateTime]::Now.ToString(yyyy))</Copyright>-->
+        <!--<PackageProjectUrl>https://github.com/nats-io/nats.net</PackageProjectUrl>-->
+        <!--<RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>-->
+        <!--<RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageIcon>Icon.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>-->
+
+    </PropertyGroup>
+
+    <!--<ItemGroup>
+        <None Include="$(MSBuildThisFileDirectory)..\LICENSE" Pack="true" PackagePath=""/>
+        <None Include="$(MSBuildThisFileDirectory)..\README.md" Pack="true" PackagePath=""/>
+        <None Include="$(MSBuildThisFileDirectory)..\Icon.png" Pack="true" PackagePath=""/>
+    </ItemGroup>-->
+</Project>
