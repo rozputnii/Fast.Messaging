@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "Subscriber\Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fast.Messaging.NetMQ", "src\Fast.Messaging.NetMQ\Fast.Messaging.NetMQ.csproj", "{F92CCE6E-4AD9-9938-3942-7ED914AC4ACC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "src\Benchmarks\Benchmarks.csproj", "{FECDD66E-1F2A-4C7D-9AD0-71DE7250E7A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{F92CCE6E-4AD9-9938-3942-7ED914AC4ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F92CCE6E-4AD9-9938-3942-7ED914AC4ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F92CCE6E-4AD9-9938-3942-7ED914AC4ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECDD66E-1F2A-4C7D-9AD0-71DE7250E7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECDD66E-1F2A-4C7D-9AD0-71DE7250E7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECDD66E-1F2A-4C7D-9AD0-71DE7250E7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECDD66E-1F2A-4C7D-9AD0-71DE7250E7A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{49C3D4A7-140B-4007-AD5E-2D605CF13A3A} = {78555F26-6330-461C-AA95-8E7084ADC63D}
 		{FFB364B5-F102-4EB7-B3E3-720DF9D946CF} = {78555F26-6330-461C-AA95-8E7084ADC63D}
 		{F92CCE6E-4AD9-9938-3942-7ED914AC4ACC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FECDD66E-1F2A-4C7D-9AD0-71DE7250E7A0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {338619DB-D0DB-42D3-9918-594602BA13E2}
