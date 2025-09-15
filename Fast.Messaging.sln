@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{78555F26-6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{49C3D4A7-140B-4007-AD5E-2D605CF13A3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "Subscriber\Subscriber.csproj", "{FFB364B5-F102-4EB7-B3E3-720DF9D946CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc", "Subscriber\Poc.csproj", "{FFB364B5-F102-4EB7-B3E3-720DF9D946CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fast.Messaging.NetMQ", "src\Fast.Messaging.NetMQ\Fast.Messaging.NetMQ.csproj", "{F92CCE6E-4AD9-9938-3942-7ED914AC4ACC}"
 EndProject
